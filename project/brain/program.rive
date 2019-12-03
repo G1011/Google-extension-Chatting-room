@@ -1,0 +1,290 @@
++ * type function
+- <set type=<formal>> Ok, I will remember the type name <get type>.
+
++ *isdigit()
+* <get type> == String => Returns True if all characters in the string are digits
+
++ *isalpha()
+* <get type> == String => Returns True if all characters in the string are in the alphabet
+
++ *upper()
+* <get type> == String => Converts a string into upper case, Return a copy of the string with all the cased characters converted to uppercase.
+
++ *translate()
+* <get type> == String => Returns a translated string
+
++ *lower()
+* <get type> == String => if <star> is string type, return a copy of the string with all the cased characters converted to lowercase.
+
++ *split()
+* <get type> == String => Splits the string at the specified separator, and returns a list
+
++ *endswith()
+* <get type> == String => Returns true if the string ends with the specified value
+
++ *lstrip()
+* <get type> == String => Returns a left trim version of the string
+
++ *encode()
+* <get type> == String => Returns an encoded version of the string
+
++ *startswith()
+* <get type> == String => Returns true if the string starts with the specified value
+
++ *append()
+* <get type> == List => Adds an element at the end of the list
+
++ *clear()
+* <get type> == List => Removes all the elements from the list
+
++ *copy()
+* <get type> == List => Returns a copy of the list
+
++ *count()
+* <get type> == List => Returns the number of elements with the specified value
+
++ *extend()
+* <get type> == List => Add the elements of a list (or any iterable), to the end of the current list
+
++ *index()
+* <get type> == List => Returns the index of the first element with the specified value
+
++ *clear()
+* <get type> == Dictionary => Removes all the elements from the dictionary
+
++ *copy()
+* <get type> == Dictionary => Returns a copy of the dictionary
+
++ *get()
+* <get type> == Dictionary => Returns the value of the specified key
+
++ *keys()
+* <get type> == Dictionary => Returns a list containing the dictionary's keys
+
++ *pop()
+* <get type> == Dictionary => Removes the element with the specified key
+
++ *values()
+* <get type> == Dictionary => Returns a list of all the values in the dictionary
+
++ *update()
+* <get type> == Dictionary => Updates the dictionary with the specified key-value pairs
+
++ *close()
+* <get type> == File => Closes the file
+
++ *readline()
+* <get type> == File => Returns one line from the file
+
++ *readlines()
+* <get type> == File => Returns a list of lines from the file
+
++ *write()
+* <get type> == File => Writes the specified string to the file
+
++ *writelines()
+* <get type> == File => Writes a list of strings to the file
+
++ *read()
+* <get type> == File => Returns the file content
+
++ *readable()
+* <get type> == File => Returns whether the file stream can be read or not
+
++ abs(*)	
+- Returns the absolute value of a number
+
++ all(*)	
+- Returns True if all items in an iterable object are true
+
++ any(*) 
+- Returns True if any item in an iterable object is true
+
++ ascii(*)	
+- Returns a readable version of an object. Replaces none-ascii characters with escape character
+
++ bin(*)	
+- Returns the binary version of a number
+
++ bool(*)	
+- Returns the boolean value of the specified object
+
++ bytearray(*)	
+- Returns an array of bytes
+
++ bytes(*)
+- Returns a bytes object
+
++ callable(*)
+- Returns True if the specified object is callable, otherwise False
+
++ chr(*)	
+- Returns a character from the specified Unicode code.
+
++ classmethod(*)	
+- Converts a method into a class method
+
++ compile(*)	
+- Returns the specified source as an object, ready to be executed
+
++ complex(*)	
+- Returns a complex number
+
++ delattr(*)	
+- Deletes the specified attribute (property or method) from the specified object
+
++ dict(*)	
+- Returns a dictionary (Array)
+
++ dir(*)	
+- Returns a list of the specified object's properties and methods
+
++ divmod(*)	
+- Returns the quotient and the remainder when argument1 is divided by argument2
+
++ enumerate(*)	
+- Takes a collection (e.g. a tuple) and returns it as an enumerate object
+
++ eval(*)	
+- Evaluates and executes an expression
+
++ exec(*)	
+- Executes the specified code (or object)
+
++ filter(*)	
+- Use a filter function to exclude items in an iterable object
+
++ float(*)	
+- Returns a floating point number
+
++ format(*)	
+- Formats a specified value
+
++ frozenset(*)	
+- Returns a frozenset object
+
++ getattr(*)	
+- Returns the value of the specified attribute (property or method)
+
++ globals(*)	
+- Returns the current global symbol table as a dictionary
+
++ hasattr(*)	
+- Returns True if the specified object has the specified attribute (property/method)
+
++ hash(*)	
+- Returns the hash value of a specified object
+
++ help(*)	
+- Executes the built-in help system
+
++ hex(*)	
+- Converts a number into a hexadecimal value
+
++ id(*)	
+- Returns the id of an object
+
++ input(*)	
+- Allowing user input
+
++ int(*)	
+- Returns an integer number
+
++ isinstance(*)	
+- Returns True if a specified object is an instance of a specified object
+
++ issubclass(*)	
+- Returns True if a specified class is a subclass of a specified object
+
++ iter(*)	
+- Returns an iterator object
+
++ len(*)	
+- Returns the length of an object
+
++ list(*)	
+-  Returns a list
+
++ locals(*)	
+- Returns an updated dictionary of the current local symbol table
+
++ map(*)	
+- Returns the specified iterator with the specified function applied to each item
+
++ max(*)	
+- Returns the largest item in an iterable
+
++ memoryview(*)	
+- Returns a memory view object
+
++ min(*)	
+- Returns the smallest item in an iterable
+
++ next(*)	
+- Returns the next item in an iterable
+
++ object(*)	
+- Returns a new object
+
++ oct(*)	
+- Converts a number into an octal
+
++ open(*)	
+- Opens a file and returns a file object
+
++ ord(*)	
+- Convert an integer representing the Unicode of the specified character
+
++ pow(*)	
+- Returns the value of x to the power of y
+
++ print(*)	
+- Prints to the standard output device
+
++ property(*)	
+- Gets, sets, deletes a property
+
++ range(*)	
+- Returns a sequence of numbers, starting from 0 and increments by 1 (by default)
+
++ repr(*)	
+- Returns a readable version of an object
+
++ reversed(*)	
+- Returns a reversed iterator
+
++ round(*)	
+- Rounds a numbers
+
++ set(*)	
+- Returns a new set object
+
++ setattr(*)	
+- Sets an attribute (property/method) of an object
+
++ slice(*)	
+- Returns a slice object
+
++ sorted(*)	
+- Returns a sorted list
+
++ str(*)	
+- Returns a string object
+
++ sum(*)	
+- Sums the items of an iterator
+
++ super(*)	
+- Returns an object that represents the parent class
+
++ tuple(*)	
+- Returns a tuple
+
++ type(*)	
+- Returns the type of an object
+
++ vars(*)	
+- Returns the __dict__ property of an object
+
++ zip(*)	
+- Returns an iterator, from two or more iterators
